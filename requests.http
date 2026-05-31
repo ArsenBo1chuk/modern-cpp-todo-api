@@ -1,0 +1,21 @@
+### 1. Отримати всі завдання (GET)
+GET http://localhost:18080/tasks
+
+### 2. Створити нове завдання (POST)
+POST http://localhost:18080/tasks
+Content-Type: application/json
+
+{
+    "title": "hello"
+}
+
+### 3. Оновити статус завдання (PUT)
+PUT http://localhost:18080/tasks/1
+Content-Type: application/json
+
+{
+    "is_completed": true
+}
+
+### 4. Видалити завдання (DELETE)
+DELETE http://localhost:18080/tasks/8

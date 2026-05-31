@@ -1,0 +1,62 @@
+# ==================================================
+# C++ / CMake / Crow / SQLite
+# ==================================================
+
+# Build directories
+build/
+out/
+bin/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_deps/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.user
+
+# CLion / JetBrains
+.idea/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Logs
+*.log
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
