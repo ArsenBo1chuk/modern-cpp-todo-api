@@ -4,10 +4,13 @@
 
 # Build directories
 build/
+Build/
+build-*/
 out/
 bin/
 
 # CMake
+.cmake/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
@@ -16,6 +19,7 @@ CTestTestfile.cmake
 Makefile
 CPackConfig.cmake
 CPackSourceConfig.cmake
+install_manifest.txt
 _deps/
 
 # Visual Studio Code
@@ -30,31 +34,51 @@ _deps/
 # CLion / JetBrains
 .idea/
 
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
 # Executables
 *.exe
 *.out
 *.app
 
-# Object files
-*.o
-*.obj
-*.so
-*.dll
-*.dylib
-*.a
-*.lib
-
-# Logs
-*.log
+# Debug files
+*.pdb
+*.ilk
+*.dwo
 
 # SQLite
 *.db
 *.sqlite
 *.sqlite3
 
-# Temporary files
+# Logs & temp
+*.log
 *.tmp
 *.temp
+*.bak
+*.swp
+
+# Testing
+Testing/
+.cache/
+
+# vcpkg
+vcpkg_installed/
+
+# Offline markdown preview cache
+.offline-markdown-preview/
 
 # OS files
 .DS_Store
